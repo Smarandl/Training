@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Adhoc"> 
+<test name="Regression">
+<parameter name="url" value="https://facebook.com"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+<class name="Adhoc.Home_Regression"></class>
+<!--  <<class name="com.amazon.shabnam.OpenNewWindow"></class>--> 
+</classes>
+</test>
+<test name="Regression2">
+<parameter name="url" value="https://facebook.com"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="Adhoc.Home_Regression"></class>
+<!--  <<class name="com.amazon.shabnam.OpenNewWindow"></class>--> 
+</classes>
+</test>
+</suite>
+
+
